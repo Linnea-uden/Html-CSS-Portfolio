@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    /* color: #8cbfd6; */
+    /* color: #c6ebbe; */
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #75b9d8;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7CA5B8;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #38369adc;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
+  @media screen and (max-width: 600px){
+    body{
+      position: fixed;
+    }
+    .container{
+      width: 70%;
+    }
+  }
+  
